@@ -1,0 +1,48 @@
+language: c
+cache: ccache
+
+env:
+  global:
+    - MAKEFLAGS="-j 2"
+
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      before_install: &bi
+        - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+        - sudo apt-get update --yes
+        - sudo apt-get install --yes -f gcc-6 g++-6
+        - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
+      script: &s
+        # Cmake 2.8.12
+        - curl -O https://cmake.org/files/v2.8/cmake-2.8.12.1.tar.gz
+        - tar -xf cmake-2.8.12.1.tar.gz
+        - cd cmake-2.8.12.1/
+        - cmake -DCMAKE_INSTALL_PREFIX=/usr/local -DBUILD_CursesDialog=OFF -DBUILD_TESTING=OFF .
+        - make && sudo make install
+        - cd ..
+        # LibreSSL
+        - curl -O https://mirrors.sonic.net/pub/OpenBSD/LibreSSL/libressl-2.5.4.tar.gz
+        - tar -xf libressl-2.5.4.tar.gz
+        - cd libressl-2.5.4
+        - ./configure --prefix=$HOME/libressl-build
+        - make
+        - make install
+        - cd ..
+          # H2GET
+        - cmake -DH2GET_SSL_ROOT_DIR=$HOME/libressl-build .
+        - make
+        - make test
+        - ./h2get firefox.rb www.fastly.com
+    - os: linux
+      dist: xenial
+      sudo: required
+      before_install:
+        - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+        - sudo apt-get update --yes
+      script: *s
+    - os: macosx
+      sudo: required
+      script: *s

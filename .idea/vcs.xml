@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/theft" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/misc/cache-digest.js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/misc/h2get" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/misc/oktavia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/misc/p5-Server-Starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/misc/picotemplate" vcs="Git" />
+  </component>
+</project>

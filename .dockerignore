@@ -1,0 +1,8 @@
+.DS_Store
+build
+doc/workdir
+vhttp.xcodeproj
+tmp
+.gitkeep
+.git
+tags

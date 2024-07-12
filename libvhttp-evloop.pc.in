@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=@CMAKE_INSTALL_FULL_LIBDIR@
+
+Name: libvhttp-evloop
+Description: An optimized HTTP/1.x & HTTP/2 library
+URL:
+Version: @LIBRARY_VERSION_MAJOR@.@LIBRARY_VERSION_MINOR@.@LIBRARY_VERSION_PATCH@
+Libs: -L${libdir} -lvhttp-evloop
+Cflags: -I${includedir}

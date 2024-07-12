@@ -1,0 +1,295 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d043c1aae328d9720d11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "h2o",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-Debug-1b86a431e4849584842d.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-valgrind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-valgrind-Debug-666de893a7fb584388fd.json",
+					"name" : "check-valgrind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "checkdepends::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-checkdepends-Debug-1b1474237c4b324feb6b.json",
+					"name" : "checkdepends",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-Debug-ba15331c63965d0f92bb.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc-clean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-clean-Debug-cf91406088a62b0faff0.json",
+					"name" : "doc-clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc-publish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-publish-Debug-342c22124631bd0695c9.json",
+					"name" : "doc-publish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-httpclient-libuv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-httpclient-libuv-Debug-82b8bb11c332e2b78b63.json",
+					"name" : "examples-httpclient-libuv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-latency-optimization-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-latency-optimization-evloop-Debug-cbc8ed6684e49e9a952a.json",
+					"name" : "examples-latency-optimization-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-simple-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-simple-evloop-Debug-22de5b22f4be2f5d35d0.json",
+					"name" : "examples-simple-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-simple-libuv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-simple-libuv-Debug-94bf9b70ba0621d1e18d.json",
+					"name" : "examples-simple-libuv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-socket-client-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-socket-client-evloop-Debug-fa582189f3367e548f85.json",
+					"name" : "examples-socket-client-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-socket-client-libuv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-socket-client-libuv-Debug-a6fc2a2ec8a6bf07895d.json",
+					"name" : "examples-socket-client-libuv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-websocket-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-websocket-evloop-Debug-945ce3b7bebbf0b26839.json",
+					"name" : "examples-websocket-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples-websocket-libuv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-websocket-libuv-Debug-d45d83b5879ebae5eeb2.json",
+					"name" : "examples-websocket-libuv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gitrev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gitrev-Debug-af2f6eab01a82f62d19e.json",
+					"name" : "gitrev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "h2o::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-h2o-Debug-508b40d848906e064103.json",
+					"name" : "h2o",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "h2o-httpclient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-h2o-httpclient-Debug-c6807a57f4351bc4abcf.json",
+					"name" : "h2o-httpclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "injectaddr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-injectaddr-Debug-9ec705550a19bd55b879.json",
+					"name" : "injectaddr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lib-examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib-examples-Debug-86b01160c08af32a4a3b.json",
+					"name" : "lib-examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lib-examples-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib-examples-evloop-Debug-741a4a54745894bc601b.json",
+					"name" : "lib-examples-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libh2o::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libh2o-Debug-8424cf2d915f9ca2c6ba.json",
+					"name" : "libh2o",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libh2o-evloop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libh2o-evloop-Debug-a28429b50c2834f7d028.json",
+					"name" : "libh2o-evloop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "picotls-cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picotls-cli-Debug-3fe8993daab126b20e5f.json",
+					"name" : "picotls-cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quicly-cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quicly-cli-Debug-4b35fa44e23a7d118fa2.json",
+					"name" : "quicly-cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t-00unit-evloop.t::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t-00unit-evloop.t-Debug-95ec6dfdb2ba870ed965.json",
+					"name" : "t-00unit-evloop.t",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t-00unit-libuv.t::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t-00unit-libuv.t-Debug-ca53be32b17cb79976d7.json",
+					"name" : "t-00unit-libuv.t",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t-qif::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t-qif-Debug-ee282ff195e3340e9602.json",
+					"name" : "t-qif",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shei/CLionProjects/h2o/cmake-build-debug",
+		"source" : "/home/shei/CLionProjects/h2o"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

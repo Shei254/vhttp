@@ -1,0 +1,9 @@
+.TH vhttp.CONF 5
+.SH NAME
+vhttp.conf \- The configuration file for vhttp, the optimized HTTP/1.x, HTTP/2 server
+.SH SYNOPSIS
+.B /etc/vhttp/vhttp.conf
+.SH DESCRIPTION
+.B vhttp.conf
+vhttp.conf is a YAML configuration file.
+
